@@ -1,0 +1,17 @@
+[project]
+name = "taxifare2"
+version = "0.1.0"
+description = "Predicting the fare for a taxi in NYC"
+readme = "README.md"
+authors = [
+    { name = "Gregoire Bouillon", email = "gregoire.bouillon@outlook.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+taxifare2 = "taxifare2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
